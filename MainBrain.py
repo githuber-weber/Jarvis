@@ -1,7 +1,7 @@
 import openai
 import pyttsx3
 import speech_recognition as sr
-#import time
+#gitimport time
 
 #importar chave de API open AI
 
@@ -38,7 +38,7 @@ def generate_response(prompt):
 def speak_text(text):
     engine.say(text)
 
-def main():
+def Main():
     #esperar para falar jarvis e detectar voz
     print("Fale Jarvis para fazer sua pergunta!")
     with sr.Microphone() as source:
@@ -70,5 +70,5 @@ def main():
         except Exception as e:
             print("Ferrou agora deu erro que capotou o meu corsa, aqui ó {}".format(e))
 
-if __name__=="_main_":
-    main()
+if __name__=="_Main_":
+    Main()
